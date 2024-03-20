@@ -1,0 +1,13 @@
+public class Even{  
+   public static void main(String args[]){  
+      int a[]={1,7,78,54,65,634,765,886,44};  
+      int h = 0;
+      System.out.println("Even Numbers:");  
+      for(int i=0;i<a.length;i++){  
+          if(a[i]%2!=0){  
+             h++;
+             System.out.println(a[i]);  
+          }  
+      } System.out.println("count:"+h); 
+   }
+}
